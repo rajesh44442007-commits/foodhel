@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of FreshTrack+",
+  "description": "A food waste tracker app to monitor food freshness, reduce waste, and save money. Features manual and camera-based item entry, expiry date tracking with categorized views (Fresh, Expiring Soon, Expired), and a clean, gradient-based UI with dark/light modes.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
