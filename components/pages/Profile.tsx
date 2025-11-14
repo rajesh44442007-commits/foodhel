@@ -155,7 +155,7 @@ const Profile: React.FC<ProfileProps> = ({ onLogout, userEmail }) => {
     
         } catch (err) {
           console.error(err);
-          setAiError("Failed to analyze image. Please try again.");
+          setAiError("Failed to analyze image. This could be due to poor image quality, an unsupported file type, or a network issue. Please try again with a clearer image.");
         } finally {
           setIsAnalyzing(false);
         }

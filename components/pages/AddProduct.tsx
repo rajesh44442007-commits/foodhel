@@ -104,7 +104,7 @@ const AddProduct: React.FC = () => {
 
     } catch (err) {
       console.error(err);
-      setError("Failed to analyze image. Please try again.");
+      setError("Failed to analyze image. This could be due to poor image quality, an unsupported file type, or a network issue. Please try again with a clearer image.");
     } finally {
       setIsAnalyzing(false);
     }
